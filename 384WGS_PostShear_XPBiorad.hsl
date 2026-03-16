@@ -4,23 +4,22 @@
  namespace _Method { #include "HSLSeqLib.hsl" } 
  namespace _Method { #include "HSLML_STARLib.hsl" } 
  namespace _Method { #include "HSLTrcLib.hsl" } 
-#include "384WGS_PostShear_XPBiorad_v1.0.res"
  namespace _Method { #include "WSI\\SlackMessenger\\SlackMessenger_V2.hs_" } 
  namespace _Method { #include "HSLUtilLib.hsl" } 
  namespace _Method { #include "HSLStrLib.hsl" } 
  namespace _Method { #include "VirtualLabware_V2.hsl" } 
+#include "384WGS_PostShear_XPBiorad.res"
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
 variable blnSimulationMode;
 dialog customDialog57F30F19A4A54aea8435476C90342F7A;
 variable arrCarriersPresent[];
-global device ML_STAR ("384WGS_PostShear_XPBiorad_v1.0.lay", "ML_STAR", hslTrue);
 variable intSeqCap;
 variable devHHS1;
 variable intNumberOfPlates;
 variable blnUserInput;
 variable blnPipettingStarted(0);
 dialog customDialogF9DACF67D3B04b388EF5F1F26849DA79;
-variable _strStartCheck;
+global device ML_STAR ("384WGS_PostShear_XPBiorad.lay", "ML_STAR", hslTrue);
 /* {{ 2 "VariableInsertLine" "" */ // }} ""
 // {{ 2 "TemplateIncludeBlock" ""
  namespace _Method { #include "HSLMETEDLib.hs_" } 
@@ -223,4 +222,4 @@ SLACKMESSENGER_V2::_ExitLibrary();
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=ch33$$valid=0$$time=2026-03-13 16:19$$checksum=2c8a99a9$$length=083$$
+// $$author=ch33$$valid=0$$time=2026-03-13 16:35$$checksum=080af2a2$$length=083$$
