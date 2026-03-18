@@ -12,14 +12,11 @@
 #include "384WGS_PostShear_XPBiorad.res"
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
 variable blnSimulationMode;
-dialog customDialog57F30F19A4A54aea8435476C90342F7A;
 variable arrCarriersPresent[];
 variable intSeqCap;
 variable devHHS1;
 variable intNumberOfPlates;
-variable blnUserInput;
 variable blnPipettingStarted(0);
-dialog customDialogF9DACF67D3B04b388EF5F1F26849DA79;
 global device ML_STAR ("384WGS_PostShear_XPBiorad.lay", "ML_STAR", hslTrue);
 dialog customDialog294AEA1DD7A34466BA4AB35A4E9E9783;
 variable intTraceLevel;
@@ -243,4 +240,4 @@ SLACKMESSENGER_V2::_ExitLibrary();
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=ch33$$valid=0$$time=2026-03-16 07:48$$checksum=a01c3c41$$length=083$$
+// $$author=ch33$$valid=0$$time=2026-03-18 16:30$$checksum=db6186ba$$length=083$$
